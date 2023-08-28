@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+body {
+    background-image: linear-gradient(#bbb, #f1c75d);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    height: 207vh;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #fbb03b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+
+.image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+    margin: 20px 20px 20px 50px;
+    background-color: #ddd;
+    border: 5px solid #fbb03b;
+    box-shadow: 6px 5px 7px 8px black;
+}
+
+.container {
+    background-color: whitesmoke;
+    position: absolute;
+    height: auto;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    top: 100%;
+    left: 50%;
+
+
+}
+
+.left {
+    background-color: #fbb03b;
+    width: 350px;
+    height: 100%;
+    float: left;
+
+}
+
+.right {
+    float: right;
+    width: 450px;
+
+}
+
+.box1 {
+    position: relative;
+}
+
+.heading {
+    background-color: #4d4d4d;
+    padding: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: -13px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 2px 2px #fbb03b;
+    margin-top: 20px;
+}
+
+.p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 7px;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.email svg,
+.phone svg {
+
+    margin: 7px 15px 5px 10px;
+    vertical-align: sub;
+}
+
+
+.phone :hover {
+
+    color: #4d4d4d;
+    width: 3rem;
+    border: 1px 1px #ddd;
+}
+
+.email :hover {
+
+    color: #4d4d4d;
+    width: 3rem;
+    border: 1px 1px #ddd;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    background-color: #0c0a7c;
+    left: 121px;
+    top: 30px;
+    transform: rotate(56deg);
+    z-index: -1;
+
+}
+
+.skill-containeer {
+    width: 90%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px 10px;
+    background-color: #4d4d4d;
+    margin-bottom: 10px;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: white;
+}
+
+.css {
+    width: 70%;
+    background-color: white;
+}
+
+.java {
+    width: 60%;
+    background-color: white;
+}
+
+.R {
+    width: 65%;
+    background-color: white;
+}
+
+.cp {
+    width: 80%;
+    background-color: white;
+}
+
+.python {
+    width: 90%;
+    background-color: white;
+}
+
+.c {
+    width: 55%;
+    background-color: white;
+
+}
+
+.p1 {
+    padding: 5px 5px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 1px 1px whitesmoke;
+
+}
+
+.web {
+    width: 70%;
+    background-color: white;
+}
+
+.Design {
+    width: 60%;
+    background-color: white;
+
+}
+
+.h-div svg {
+    width: 2rem;
+    margin: 10px 10px;
+    padding: 3px 3px;
+}
+
+.h-div :hover {
+    width: 4rem;
+    box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.h-name {
+    margin-top: 60px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 1px 1px #fbb03b;
+
+}
+
+.h2 {
+    margin: 40px 30px;
+    color: #4d4d4d;
+    text-shadow: 1px 1px#fbb03b;
+
+
+}
+
+.h2:hover {
+    font-size: large;
+    color: black;
+}
+
+.p {
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.h4 {
+    margin-left: 30px;
+    color: #4d4d4d;
+    text-shadow: 1px 1px#fbb03b;
+}
+
+.h22 {
+    margin: 40px 30px;
+    color: #4d4d4d;
+    text-shadow: 1px 1px#fbb03b;
+    margin-top: -1px;
+}
+
+.h22:hover {
+    font-size: large;
+    color: black;
+}
+
+.social-item {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    color: rgb(105, 105, 105);
+}
+
+
+
+.social-item svg {
+    padding-right: 5px;
+    width: 5rem;
+    gap: 1 rem;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.h4:hover {
+    font-size: large;
+    color: black;
+}
+
+.box-2 svg:hover {
+    width: 4rem;
+    color: #fbb03b;
+
+}
